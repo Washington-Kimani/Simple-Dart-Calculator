@@ -5,10 +5,10 @@ void main() {
   //Program Beginning
   print("Welcome to the Simple Dart Calculator!");
   print('Enter the first number: ');
-  int num1 = int.parse(stdin.readLineSync()!);
+  double num1 = double.parse(stdin.readLineSync()!);
 
   print('Enter the second number: ');
-  int num2 = int.parse(stdin.readLineSync()!);
+  double num2 = double.parse(stdin.readLineSync()!);
 
   print('\nSelect operation:\n' +
       '1.Addition\n' +

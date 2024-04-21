@@ -6,7 +6,7 @@ This coded uses  the `dart:io` library to create a command-line interface (CLI) 
 import 'dart:io'
 
 void main(){
-    //This is how to read  input from the user in dart and convert it to integer.
+    //This is how to read  input from the user in dart and convert it to double.
     int input1 = int.parse(stdin.readLineSync()!);
 }
 ```
